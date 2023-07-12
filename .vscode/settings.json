@@ -1,0 +1,7 @@
+{
+    "clangd.path": "clangd",
+    "clangd.arguments": ["-log=verbose", 
+                         "-pretty", 
+                         "--background-index", 
+                         "--compile-commands-dir=${workspaceFolder}/compile_commands.json"]
+}
