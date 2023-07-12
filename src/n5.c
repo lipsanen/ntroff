@@ -576,7 +576,7 @@ rtn:
 	nroff_env.pts1 = savpts1;
 	mchbits();
 	offset = dip->op;
-	free(begin);
+	ffree(begin);
 	return(k);
 }
 caserd(){
